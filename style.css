@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: aqua;
+}
+h1{
+    color: blueviolet;
+    font-size: 50px;
+    text-align:center;
+    cursor:help;
+}
+h1:hover{
+    color: deeppink;
+}
+p{
+    cursor: grab;
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+a:link{
+   background-color: red;
+   color: black;
+}
+a:active{
+    background-color: blueviolet;
+    color: burlywood;
+}
+a:visited{
+    background-color: yellow;
+    color: red;
+}
+a:hover{
+    background-color: black;
+    color: deeppink;
+}
+.input{
+    color: deeppink;
+    background-color: bisque;
+}
+.input:focus{
+    color: red;
+    background-color: aqua;
+}
